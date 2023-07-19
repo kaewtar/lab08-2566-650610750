@@ -4,11 +4,9 @@ import { TaskInput } from "../../hi/TaskInput";
 
 export default function Home() {
   return (
-    // Main container
     <div className="container mx-auto">
       {/* header section */}
       <Header />
-
       {/* tasks container */}
       <div style={{ maxWidth: "400px" }} className="mx-auto">
         {/* task input */}
@@ -20,7 +18,6 @@ export default function Home() {
         {/* task */}
         <Task title="Sleep" />
       </div>
-
       {/* //footer section */}
       <Footer
         year="2023"

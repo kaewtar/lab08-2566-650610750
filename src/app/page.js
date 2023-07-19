@@ -1,3 +1,4 @@
+import { Footer } from "../../hi/Footer";
 import { Header } from "../../hi/Header";
 import { Task } from "../../hi/Task";
 import { TaskInput } from "../../hi/TaskInput";
@@ -19,11 +20,7 @@ export default function Home() {
         <Task title="Sleep" />
       </div>
       {/* //footer section */}
-      <Footer
-        year="2023"
-        fullName="Kaewtar Lungta"
-        studentId="650610750"
-      ></Footer>
+      <Footer year="2023" fullName="Kaewtar Lungta" studentId="650610750" />
     </div>
   );
 }
